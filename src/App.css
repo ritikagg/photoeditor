@@ -36,3 +36,27 @@
     transform: rotate(360deg);
   }
 }
+
+.image-config {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 12px;
+}
+
+.image-config__slider {
+  width: 50%;
+}
+
+.container-images {
+  display: flex;
+  flex-wrap: wrap;
+
+  /* height: 150px; */
+  /* width: 50%; */
+}
+
+.container-images__image {
+  height: 250px;
+  width: 250px;
+  margin: 20px;
+}
